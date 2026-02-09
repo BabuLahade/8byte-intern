@@ -122,7 +122,7 @@ Workflow details:
 The following screenshots are included:
 
 Terraform apply output
-![Terraform](screenshots/8byte terraform apply.png)
+![Terraform](screenshots/8byte%20terraform%20apply.png)
 
 
 EC2 instance running
