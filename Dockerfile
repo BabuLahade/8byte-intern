@@ -5,10 +5,10 @@ FROM node:18-alpine
 WORKDIR /app
 
 # COPY
-COPY package*.json ./
+COPY app/package*.json ./
 RUN npm install
 
-COPY . .
+COPY app/app.js .
 
 #PORT EXPOSE
 EXPOSE 3000
