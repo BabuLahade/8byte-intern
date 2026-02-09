@@ -3,7 +3,7 @@
 The following screenshots are included:
 
 Terraform apply output
-![Terraform](8byte%20terraform%20apply1.png)
+![Terraform](8byte%20terraform%20apply%201.png)
 ![Terraform](8byte%20terraform%20apply.png)
 
 
