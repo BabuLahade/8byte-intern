@@ -117,11 +117,13 @@ Workflow details:
 -Builds Docker image to verify Dockerfile and application
 -This ensures that any code pushed to main branch is automatically validated.
 
-Screenshots
+## Screenshots
 
 The following screenshots are included:
 
 Terraform apply output
+![Terraform](screenshots/"8byte terraform apply.png")
+
 
 EC2 instance running
 
