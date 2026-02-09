@@ -35,6 +35,7 @@ The application is a simple Node.js Express app that runs on port **3000** and d
 ```bash
 npm install
 node app.js
+```
 ---
 
 Open browser:
@@ -47,12 +48,13 @@ Docker installed using terraform user_data
 Build Docker Image
 ```bash
 docker build -t 8byte-intern-app .
+```
 ---
 
 Run Docker 
 ```bash
 docker run -d -p 3000:3000 8byte-intern-app
----
+```
 
 Application will be available at:
 
@@ -72,6 +74,7 @@ Terraform Commands
 terraform init
 terraform plan
 terraform apply
+```
 ---
 
 After apply, EC2 public IP is generated.
@@ -80,15 +83,17 @@ Steps followed after EC2 creation:
 ## Login to EC2 using SSH 
 ```bash
 ssh - 8byte-intern.pem ubuntu@16.16.220.60
+```
 ---
 Verify Docker installation
 ```bash
 docker ps
+```
 ---
 Clone GitHub repository
 ```bash
 git clone https://github.com/BabuLahade/8byte-intern.git
-
+```
 ---
 Build Docker image
 ```bash
@@ -97,7 +102,7 @@ docker build -t 8byte-intern-app .
 Run Docker container
 ```bash
 docker run -d -p 3000:3000 8byte-intern-app
----
+```
 
 ## Application is accessible using:
 
