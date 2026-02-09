@@ -122,7 +122,7 @@ Workflow details:
 The following screenshots are included:
 
 Terraform apply output
-![Terraform](screenshots/8byte%20terraform%20apply1.png)
+![Terraform](screenshots/8byte%20terraform%20apply%201.png)
 ![Terraform](screenshots/8byte%20terraform%20apply.png)
 
 
